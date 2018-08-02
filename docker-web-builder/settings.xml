@@ -7,7 +7,10 @@
             <repositories>
                 <repository>
                     <id>sonatype-snapshots</id>
+                    <url>http://79.45.177.216:8007/repository/maven-snapshots/</url>
+<!--
                     <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+-->
                 </repository>
             </repositories>
         </profile>
