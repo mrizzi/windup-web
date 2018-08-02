@@ -29,9 +29,9 @@
         <version.resteasy>3.0.19.Final</version.resteasy>
         <version.jboss.javaee>1.0.3.Final</version.jboss.javaee>
 
-        <windup.web.scm.connection>scm:git:https://github.com/windup/windup-web.git</windup.web.scm.connection>
-        <windup.web.developer.connection>scm:git:git@github.com:windup/windup-web.git</windup.web.developer.connection>
-        <windup.web.scm.url>http://github.com/windup/windup-web</windup.web.scm.url>
+        <windup.web.scm.connection>scm:git:https://github.com/mrizzi/windup-web.git</windup.web.scm.connection>
+        <windup.web.developer.connection>scm:git:git@github.com:mrizzi/windup-web.git</windup.web.developer.connection>
+        <windup.web.scm.url>http://github.com/mrizzi/windup-web</windup.web.scm.url>
 
         <windup.distribution.name>rhamt-cli</windup.distribution.name>
     </properties>
@@ -62,12 +62,20 @@
 
     <distributionManagement>
         <snapshotRepository>
+            <id>myoss</id>
+            <url>http://79.45.177.216:8007/repository/maven-snapshots/</url>
+<!--
             <id>ossrh</id>
             <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+-->
         </snapshotRepository>
         <repository>
+            <id>myoss</id>
+            <url>http://79.45.177.216:8007/repository/maven-releases/</url>
+<!--
             <id>ossrh</id>
             <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+-->
         </repository>
     </distributionManagement>
 
