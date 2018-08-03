@@ -86,7 +86,7 @@
             <groupId>org.jboss.windup</groupId>
             <artifactId>windup-server-provider-spi</artifactId>
             <version>${project.version}</version>
-            <classifier>forge-addon</classifier>
+            <!--<classifier>forge-addon</classifier>-->
             <scope>provided</scope>
         </dependency>
         <dependency>
